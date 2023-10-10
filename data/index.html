@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MONITORING DASHBOARD</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="topnav">
+            <h1>DASHBOARD</h1>
+        </div>
+        <div class="content">
+            <div class="card-grid">
+                <div class="card">
+                    <p class="card-title">Temperature</p>
+                    <p class="reading"><span id="temperature"></span> &deg;C</p>
+                </div>
+                <div class="card">
+                    <p class="card-title"> Taux de Charge</p>
+                    <p class="reading"><span id="TauxdeCharge"></span> &percnt;</p>
+                </div>
+                <div class="card">
+                    <p class="card-title"> Etat feux</p>
+                    <p class="reading"><input type="button" id="etatfeux"></input></p>
+                </div>
+                <div class="card">
+                    <p class="card-title"> Vitesse mot</p>
+                    <p class="reading"><span id="vitmoteur"></span>  km/h</p>
+                </div>				
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
