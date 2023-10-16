@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet FS 2023" company="Polytech Clermont - Sigma Racing Team" webLink="http://" view-date="2023-09-01" view-index="0" gantt-divider-location="338" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet FS 2023" company="Polytech Clermont - Sigma Racing Team" webLink="http://" view-date="2023-09-11" view-index="0" gantt-divider-location="338" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
     <description>
         <![CDATA[Projet de GE5A en collaboration avec Sigma]]>
     </description>
-    <view zooming-state="default:8" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nom" width="200" order="0"/>
         <field id="tpd4" name="Date de début" width="56" order="1"/>
         <field id="tpd5" name="Date de fin" width="81" order="2"/>
@@ -237,20 +237,20 @@
         </task>
         <task id="17" name="1er roulage de la monoplace" color="#0000cc" meeting="true" start="2023-12-20" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="false"/>
         <task id="28" name="Revue de projet" color="#cc0000" meeting="true" start="2023-12-21" duration="0" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true"/>
-        <task id="0" name="Sprint 1" color="#333333" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false">
-            <task id="1" name="On sait où faire les test d'acceleration sur la batterie(GCK)" color="#00ffcc" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false"/>
+        <task id="0" name="Sprint 1" color="#333333" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true">
+            <task id="1" name="On sait où faire les tests d'accelerations sur la batterie(GCK)" color="#00ffcc" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false"/>
             <task id="2" name="On a une reservation pour le passage des habilitations(Polytech+Sigma)" color="#33ff00" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="La recuperation de l'information liés a l'angle du volant est défini(technologie)" color="#8cb6ce" meeting="true" start="2023-09-15" duration="0" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true"/>
             <task id="4" name="Mise en place du monitoring(Synoptique)" color="#ffcc00" meeting="false" start="2023-09-18" duration="10" complete="100" thirdDate="2023-09-15" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="26" name="Sprint 2" color="#333333" meeting="false" start="2023-10-02" duration="10" complete="51" thirdDate="2023-11-13" thirdDate-constraint="0" expand="false">
+        <task id="26" name="Sprint 2" color="#333333" meeting="false" start="2023-10-02" duration="10" complete="55" thirdDate="2023-11-13" thirdDate-constraint="0" expand="true">
             <task id="14" name="Theorie du Torque Vectoring + Explication(Algo)" color="#ffcc00" meeting="false" start="2023-10-02" duration="5" complete="40" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
                 <depend id="20" type="2" difference="20" hardness="Strong"/>
                 <depend id="21" type="2" difference="20" hardness="Strong"/>
             </task>
             <task id="35" name="Conception carte feux stop" color="#ffcc00" meeting="false" start="2023-10-09" duration="5" complete="95" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true"/>
-            <task id="30" name="Définir les caractéristiques de la batterie" color="#33ff00" meeting="false" start="2023-10-02" duration="5" complete="0" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true"/>
-            <task id="34" name="Conception carte coupure moteur(1)" color="#33ff00" meeting="false" start="2023-10-09" duration="5" complete="60" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="30" name="Définir les caractéristiques de la batterie" color="#33ff00" meeting="false" start="2023-10-02" duration="5" complete="40" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Conception carte coupure moteur(1)" color="#33ff00" meeting="false" start="2023-10-09" duration="5" complete="40" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
             <task id="31" name="Définition des E/S de la batterie et synoptique du véhicule avec l’ensemble des composants" color="#00ffcc" meeting="false" start="2023-10-02" duration="5" complete="100" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true"/>
             <task id="33" name="IHM sur QT" color="#00ffcc" meeting="false" start="2023-10-09" duration="5" complete="15" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
         </task>
