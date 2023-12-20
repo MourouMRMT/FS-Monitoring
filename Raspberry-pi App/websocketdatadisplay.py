@@ -4,7 +4,7 @@ from PyQt5.QtCore import Qt, QUrl
 from PyQt5.QtWebSockets import QWebSocket
 import json
 
-wsURL='ws://172.20.10.9/ws'
+wsURL='ws://192.168.42.145/ws'
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -13,8 +13,9 @@ class MyWindow(QWidget):
         self.initUI()
 
     def initUI(self):
+        self.setStyleSheet("background-color: darkblue;")
 #========================A modifier============================#
-		
+        
         self.layout = QVBoxLayout(self)
         self.label1 = QLabel('Data 1:', self)
         self.label2 = QLabel('Data 2:', self)
@@ -32,7 +33,7 @@ class MyWindow(QWidget):
         self.setWindowTitle('WebSocket Data Display')
         
 #===============================================================#     
-        self.show()
+        self.showFullScreen()
         self.initWebSocket()
   
     def initWebSocket(self):
