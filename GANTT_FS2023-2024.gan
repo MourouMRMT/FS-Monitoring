@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Projet FS 2023" company="Polytech Clermont - Sigma Racing Team" webLink="http://" view-date="2023-09-11" view-index="0" gantt-divider-location="323" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Projet FS 2023" company="Polytech Clermont - Sigma Racing Team" webLink="http://" view-date="2023-09-25" view-index="0" gantt-divider-location="308" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
     <description>
         <![CDATA[Projet de GE5A en collaboration avec Sigma]]>
     </description>
     <view zooming-state="default:7" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="191" order="0"/>
-        <field id="tpd4" name="Date de début" width="54" order="1"/>
-        <field id="tpd5" name="Date de fin" width="77" order="2"/>
+        <field id="tpd3" name="Nom" width="173" order="0"/>
+        <field id="tpd4" name="Date de début" width="49" order="1"/>
+        <field id="tpd5" name="Date de fin" width="70" order="2"/>
         <option id="taskLabelUp" value=""/>
         <option id="taskLabelDown" value="name"/>
         <option id="taskLabelLeft" value="resources"/>
         <option id="taskLabelRight" value="advancement"/>
         <option id="filter.completedTasks" value="false"/>
         <timeline>
-            <![CDATA[1]]>
+            <![CDATA[1,28]]>
         </timeline>
         <option id="color.recent">
-            <![CDATA[#ffcc00 #33ff00 #00ffcc #cc0000 #f4f4f4 #333333 #0000cc]]>
+            <![CDATA[#ffcc00 #00ffcc #eeeeee #33ff00 #cc0000 #f4f4f4 #333333 #0000cc]]>
         </option>
     </view>
     <view id="resource-table">
@@ -222,75 +222,54 @@
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
         <task id="6" name="Reception de la chaine complete(Pedalier,VCU,Variateur,Moteur,capteur direction)" color="#0000cc" meeting="true" start="2023-09-29" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-            <depend id="5" type="2" difference="21" hardness="Strong"/>
-            <depend id="8" type="2" difference="21" hardness="Strong"/>
             <depend id="9" type="2" difference="0" hardness="Strong"/>
-            <depend id="10" type="2" difference="21" hardness="Strong"/>
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="25" name="Revue de lancement" color="#cc0000" meeting="true" start="2023-10-16" duration="0" complete="100" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true"/>
-        <task id="5" name="Reception du support Moteur" color="#0000cc" meeting="true" start="2023-11-06" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        <task id="25" name="Revue de lancement" color="#cc0000" meeting="true" start="2023-10-16" duration="0" complete="0" thirdDate="2023-09-25" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Reception du support Moteur" color="#0000cc" meeting="true" start="2023-10-26" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="22" hardness="Strong"/>
         </task>
-        <task id="23" name="Revue d'avancement" color="#cc0000" meeting="true" start="2023-11-16" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
-        <task id="11" name="Moteur tourne et commandé par pédalier" color="#0000cc" meeting="true" start="2023-12-04" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
-        <task id="16" name="Torque Vectoring fonctionnel" color="#0000cc" meeting="true" start="2023-12-18" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-            <depend id="17" type="3" difference="4" hardness="Strong"/>
-        </task>
-        <task id="17" name="1er roulage de la monoplace" color="#0000cc" meeting="true" start="2023-12-22" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="false"/>
-        <task id="28" name="Revue de projet" color="#cc0000" meeting="true" start="2023-12-21" duration="0" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" expand="true"/>
+        <task id="23" name="Revue d'avancement" color="#cc0000" meeting="true" start="2023-11-20" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
+        <task id="11" name="Moteur tourne et commandé par pédalier" color="#0000cc" meeting="true" start="2023-12-18" duration="0" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
+        <task id="40" name="Réception Transistor et test montage carte feu stop" color="#ffcc00" meeting="true" start="2023-11-15" duration="0" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true"/>
+        <task id="28" name="Revue de projet" color="#cc0000" meeting="true" start="2023-12-21" duration="0" complete="0" thirdDate="2023-06-01" thirdDate-constraint="0" priority="4" expand="true"/>
         <task id="0" name="Sprint 1" color="#333333" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false">
-            <task id="1" name="On sait où faire les tests d'accelerations sur la batterie(GCK)" color="#00ffcc" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false"/>
+            <task id="1" name="On sait où faire les test d'acceleration sur la batterie(GCK)" color="#00ffcc" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="false"/>
             <task id="2" name="On a une reservation pour le passage des habilitations(Polytech+Sigma)" color="#33ff00" meeting="false" start="2023-09-15" duration="11" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true"/>
             <task id="3" name="La recuperation de l'information liés a l'angle du volant est défini(technologie)" color="#8cb6ce" meeting="true" start="2023-09-15" duration="0" complete="100" thirdDate="2023-09-27" thirdDate-constraint="0" expand="true"/>
             <task id="4" name="Mise en place du monitoring(Synoptique)" color="#ffcc00" meeting="false" start="2023-09-18" duration="10" complete="100" thirdDate="2023-09-15" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="26" name="Sprint 2" color="#333333" meeting="false" start="2023-10-02" duration="10" complete="79" thirdDate="2023-11-13" thirdDate-constraint="0" expand="false">
-            <task id="14" name="Theorie du Torque Vectoring + Explication(Algo)" color="#ffcc00" meeting="false" start="2023-10-02" duration="5" complete="40" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
-                <depend id="20" type="2" difference="20" hardness="Strong"/>
-                <depend id="21" type="2" difference="20" hardness="Strong"/>
-            </task>
+        <task id="26" name="Sprint 2" color="#333333" meeting="false" start="2023-10-02" duration="10" complete="71" thirdDate="2023-11-13" thirdDate-constraint="0" expand="false">
             <task id="35" name="Conception carte feux stop" color="#ffcc00" meeting="false" start="2023-10-09" duration="5" complete="95" thirdDate="2023-08-28" thirdDate-constraint="0" expand="true"/>
-            <task id="30" name="Définir les caractéristiques de la batterie" color="#33ff00" meeting="false" start="2023-10-02" duration="5" complete="40" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true"/>
-            <task id="34" name="Conception carte coupure moteur(1)" color="#33ff00" meeting="false" start="2023-10-09" duration="5" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="30" name="Définir les caractéristiques de la batterie" color="#33ff00" meeting="false" start="2023-10-02" duration="5" complete="0" thirdDate="2023-09-11" thirdDate-constraint="0" expand="true"/>
+            <task id="34" name="Conception carte coupure moteur(1)" color="#33ff00" meeting="false" start="2023-10-09" duration="5" complete="60" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
             <task id="31" name="Définition des E/S de la batterie et synoptique du véhicule avec l’ensemble des composants" color="#00ffcc" meeting="false" start="2023-10-02" duration="5" complete="100" thirdDate="2023-09-04" thirdDate-constraint="0" expand="true"/>
-            <task id="33" name="ebauche IHM sur QT" color="#00ffcc" meeting="false" start="2023-10-09" duration="5" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
+            <task id="33" name="IHM sur QT" color="#00ffcc" meeting="false" start="2023-10-09" duration="5" complete="100" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
         </task>
-        <task id="39" name="Trouver un circuit de surveillance d'isolement" color="#ffcc00" meeting="false" start="2023-10-16" duration="10" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
-        <task id="37" name="Finalisation carte coupure moteur" color="#33ff00" meeting="false" start="2023-10-16" duration="10" complete="40" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-        <task id="38" name="implantation IHM sur QT" color="#00ffcc" meeting="false" start="2023-10-16" duration="10" complete="15" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true"/>
-        <task id="7" name="Sprint 3" color="#333333" meeting="false" start="2023-11-06" duration="10" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true">
-            <task id="8" name="Le PC communique avec le VCU" color="#00ffcc" meeting="false" start="2023-11-06" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-                <depend id="13" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="9" name="Moteur qui tourne" color="#33ff00" meeting="false" start="2023-11-06" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="false">
-                <depend id="13" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="10" name="J'arrive a piloter une broche du VCU" color="#ffcc00" meeting="false" start="2023-11-06" duration="10" complete="0" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
-                <depend id="15" type="2" difference="0" hardness="Strong"/>
-            </task>
+        <task id="14" name="Theorie du Torque Vectoring + Explication(Algo)" color="#ffcc00" meeting="false" start="2023-10-02" duration="5" complete="40" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="20" hardness="Strong"/>
+            <depend id="21" type="2" difference="20" hardness="Strong"/>
         </task>
-        <task id="12" name="Sprint 4" color="#000000" meeting="false" start="2023-11-20" duration="10" complete="0" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
-            <task id="13" name="Communication VCU-&gt; Moteur OK" color="#00ffcc" meeting="false" start="2023-11-20" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-                <depend id="20" type="2" difference="0" hardness="Strong"/>
-                <depend id="21" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="15" name="Communication Pedale-&gt;VCU OK" color="#ffcc00" meeting="false" start="2023-11-20" duration="10" complete="0" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
-                <depend id="11" type="2" difference="0" hardness="Strong"/>
-                <depend id="22" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="29" name="Finalisation de la carte coupure moteur" color="#33ff00" meeting="false" start="2023-11-20" duration="10" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true"/>
+        <task id="37" name="Mise en place d'un transmetteur CAN" color="#ffcc00" meeting="false" start="2023-10-16" duration="5" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true"/>
+        <task id="38" name="Mise en place d'un récepteur CAN" color="#ffcc00" meeting="false" start="2023-10-23" duration="5" complete="100" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Avancement  machine à étatsVCU" color="#ffcc00" meeting="false" start="2023-11-06" duration="20" complete="50" thirdDate="2023-10-02" thirdDate-constraint="0" expand="true" cost-manual-value="0.0" cost-calculated="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="19" name="Sprint 5" color="#000000" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-11-07" thirdDate-constraint="0" expand="true">
-            <task id="22" name="Communication Volant-&gt;VCU OK" color="#ffcc00" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-                <depend id="17" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="20" name="Implementation Torque Vectoring fonctionnel" color="#00ffcc" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
-                <depend id="16" type="2" difference="0" hardness="Strong"/>
-            </task>
-            <task id="21" name="Implementation Torque Vectoring fonctionnel" color="#33ff00" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true">
-                <depend id="16" type="2" difference="0" hardness="Strong"/>
-            </task>
+        <task id="15" name="Communication Pedale-&gt;VCU OK" color="#ffcc00" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-10-16" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
         </task>
+        <task id="8" name="Développement de l'IHM Pilote" color="#00ffcc" meeting="false" start="2023-10-16" duration="10" complete="100" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
+        <task id="39" name="Déploiment de l'IHM sur raspberry" color="#00ffcc" meeting="false" start="2023-11-06" duration="20" complete="50" thirdDate="2023-09-01" thirdDate-constraint="0" expand="true"/>
+        <task id="29" name="Conception de la carte coupure moteur" color="#33ff00" meeting="false" start="2023-10-16" duration="30" complete="50" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Communication VCU-&gt; Moteur OK" color="#00ffcc" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Moteur qui tourne" color="#33ff00" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="false"/>
+        <task id="20" name="Implementation Torque Vectoring fonctionnel" color="#00ffcc" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="Communication Volant-&gt;VCU OK" color="#ffcc00" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-09-18" thirdDate-constraint="0" expand="true"/>
+        <task id="21" name="Implementation Torque Vectoring fonctionnel" color="#33ff00" meeting="false" start="2023-12-18" duration="10" complete="0" thirdDate="2023-11-06" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Yasmine" function="Default:0" contacts="" phone=""/>
@@ -304,21 +283,21 @@
         <allocation task-id="20" resource-id="0" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="31" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="33" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="38" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="39" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="2" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="9" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="21" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="29" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="30" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="34" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
-        <allocation task-id="37" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
         <allocation task-id="3" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="4" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="10" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="15" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="22" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
         <allocation task-id="14" resource-id="2" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="39" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="37" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="38" resource-id="2" function="Default:0" responsible="true" load="100.0"/>
     </allocations>
     <vacations/>
     <previous/>
